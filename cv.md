@@ -3,7 +3,7 @@
 #  Siarhei Kliazovich
 *********
 
-###  Contacts
+##  Contacts
 *********
 
    * **Location**: *Herceg Novi*, *Montenegro*
