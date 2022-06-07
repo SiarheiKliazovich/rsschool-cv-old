@@ -3,7 +3,8 @@
 #  Siarhei Kliazovich  
 **********
 
- ![avatar](/images/avatar.png "SiarheiKliazovich")
+ ![avatar](https://github.com/SiarheiKliazovich/rsschool-cv/blob/rsschool-cv-html/images/avatar.png?raw=true "SiarheiKliazovich")
+
 *********
 
 ##  Contacts
