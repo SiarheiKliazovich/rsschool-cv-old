@@ -47,4 +47,7 @@ My journey in the profession has just begun, but I want to learn and develop new
 *********
 
    * **A2**
+
+   
+   I am at the beginning or learning English, but I go faster to my goal.
  
