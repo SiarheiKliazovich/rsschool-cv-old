@@ -1,6 +1,9 @@
 
 
-#  Siarhei Kliazovich
+#  Siarhei Kliazovich  
+**********
+
+ ![avatar]( /images/avatar.png)
 *********
 
 ##  Contacts
