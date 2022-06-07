@@ -3,7 +3,7 @@
 #  Siarhei Kliazovich  
 **********
 
- ![avatar]( /images/avatar.png)
+ ![avatar](/images/avatar.png "SiarheiKliazovich")
 *********
 
 ##  Contacts
