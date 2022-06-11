@@ -2,3 +2,42 @@
   margin: 0;
   padding: 0;
 }
+body {
+  font-family: 'Roboto', sans-serif;
+}
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.nav-list {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  justify-content: space-evenly;
+  list-style: none;
+  padding: 0 20px;
+  line-height: 50px;
+}
+.section-head-title{
+  margin: 20px 390px;
+}
+
+.section-main{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 50px 0px;
+}
+
+.sectiontext{
+  font-size: 50px;
+  color:#973b83;
+  font-family: initial;
+
+}
+.section img{
+  border-radius: 220px;
+  border: 1px solid snow;
+  width: 240px;
+  height: 250px;
+}
