@@ -3,12 +3,20 @@
   padding: 0;
 }
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family:  'Tiro Devanagari Marathi', serif;
+  background-color: whitesmoke;
 }
 .container {
-  max-width: 1440px;
+  max-width: 1400px;
   margin: 0 auto;
+
 }
+.header{
+  font-family: 'Kdam Thmor Pro', sans-serif;
+ background-color: rgba(169, 169, 169, 0.39);
+}
+
+
 .nav-list {
   display: flex;
   justify-content: flex-end;
@@ -18,9 +26,18 @@ body {
   padding: 0 20px;
   line-height: 50px;
 }
-.section-head-title{
-  margin: 20px 390px;
+.main {
+  
 }
+.section-head-title {
+  margin: 0px 590px;
+  
+}
+.section-title{
+color:slategrey;
+letter-spacing: 2px;
+}
+
 
 .section-main{
   display: flex;
@@ -29,15 +46,41 @@ body {
   margin: 50px 0px;
 }
 
-.sectiontext{
+.section-text{
   font-size: 50px;
-  color:#973b83;
-  font-family: initial;
+  color:slategrey;
+  font-family: fantasy ;
 
 }
-.section img{
+.section-img{
   border-radius: 220px;
-  border: 1px solid snow;
+  border: 1px solid rgb(12, 11, 11);
   width: 240px;
   height: 250px;
 }
+
+
+ .footer{
+  background-color:rgba(169, 169, 169, 0.39);
+  margin: 0px ;
+ padding: 30px;
+
+} 
+.container-footer{
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+}
+
+.footer-container{
+  color: aliceblue;
+  font-size: 30px;
+}
+ .footer-link{
+ color: aliceblue;
+ font-size: 30px;
+ }
+ .footer-img{
+  width: 250px;
+  height:70px ;
+ }
