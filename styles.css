@@ -1,7 +1,9 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
+
 body {
   font-family:  'Tiro Devanagari Marathi', serif;
   background-color: whitesmoke;
@@ -9,8 +11,8 @@ body {
 .container {
   max-width: 1400px;
   margin: 0 auto;
+ }
 
-}
 .header{
   font-family: 'Kdam Thmor Pro', sans-serif;
  background-color: rgba(169, 169, 169, 0.39);
@@ -26,23 +28,24 @@ body {
   padding: 0 20px;
   line-height: 50px;
 }
-.main {
+
   
-}
 .section-head-title {
-  margin: 0px 590px;
+  text-align: center;
   
 }
 .section-title{
 color:slategrey;
 letter-spacing: 2px;
+margin: 20px 0px 20px;
 }
 
 
 .section-main{
   display: flex;
-  justify-content: space-around;
-  align-items: center;
+  flex-direction: row-reverse;
+ justify-content: space-evenly;
+ align-items: center;
   margin: 50px 0px;
 }
 
@@ -52,6 +55,7 @@ letter-spacing: 2px;
   font-family: fantasy ;
 
 }
+
 .section-img{
   border-radius: 220px;
   border: 1px solid rgb(12, 11, 11);
@@ -59,6 +63,21 @@ letter-spacing: 2px;
   height: 250px;
 }
 
+.section-wraper{
+display: flex;
+flex-wrap: wrap;
+}
+.section{
+  width: 50% ;
+  border-bottom: 1px solid black;
+  padding-bottom: 35px;
+}
+.main-item{
+ list-style-type: none;
+}
+.code-example{
+  white-space: pre-line;
+}
 
  .footer{
   background-color:rgba(169, 169, 169, 0.39);
@@ -66,13 +85,13 @@ letter-spacing: 2px;
  padding: 30px;
 
 } 
-.container-footer{
+.footer-container{
  display: flex;
  justify-content: space-between;
  align-items: center;
 }
 
-.footer-container{
+.copyrate{
   color: aliceblue;
   font-size: 30px;
 }
