@@ -5,19 +5,21 @@
 }
 
 body {
-  font-family:  'Tiro Devanagari Marathi', serif;
+  font-family:  'Tiro Devanagari Marathi', serif ;
+  font-size: 17px;
   background-color: whitesmoke;
 }
+
 .container {
   max-width: 1400px;
   margin: 0 auto;
+  padding: 0 20px;
  }
 
-.header{
+.header {
   font-family: 'Kdam Thmor Pro', sans-serif;
- background-color: rgba(169, 169, 169, 0.39);
+  background-color: rgba(169, 169, 169, 0.39);
 }
-
 
 .nav-list {
   display: flex;
@@ -27,79 +29,81 @@ body {
   list-style: none;
   padding: 0 20px;
   line-height: 50px;
+} 
+
+.section-title {
+  color:slategrey;
+  letter-spacing: 3px;
+  margin: 20px 0px 20px;
 }
 
-  
-.section-head-title {
-  text-align: center;
-  
-}
-.section-title{
-color:slategrey;
-letter-spacing: 2px;
-margin: 20px 0px 20px;
-}
-
-
-.section-main{
+.section-main {
   display: flex;
-  flex-direction: row-reverse;
- justify-content: space-evenly;
- align-items: center;
+  justify-content: space-evenly;
+  align-items: center;
   margin: 50px 0px;
+  border-bottom: 14px solid  rgba(169,169, 169, 0.39);
+  padding: 15px;
 }
 
-.section-text{
+.section-head-title {
   font-size: 50px;
   color:slategrey;
-  font-family: fantasy ;
-
+  font-family: fantasy;
+  letter-spacing: 2px;
 }
 
-.section-img{
+.section-subtitle {
+  color:slategrey;
+  text-align: center;
+  margin: 17px;
+}
+
+.section-img {
   border-radius: 220px;
   border: 1px solid rgb(12, 11, 11);
   width: 240px;
   height: 250px;
 }
 
-.section-wraper{
-display: flex;
-flex-wrap: wrap;
+.section-wraper {
+  display: flex;
+  flex-wrap: wrap;
 }
-.section{
-  width: 50% ;
+
+.section {
+  width: 50%;
   border-bottom: 1px solid black;
   padding-bottom: 35px;
 }
-.main-item{
- list-style-type: none;
-}
-.code-example{
-  white-space: pre-line;
+
+.main-item {
+  list-style-type: none;
 }
 
- .footer{
+.footer {
   background-color:rgba(169, 169, 169, 0.39);
   margin: 0px ;
- padding: 30px;
-
+  padding: 30px;
 } 
-.footer-container{
- display: flex;
- justify-content: space-between;
- align-items: center;
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.copyrate{
+.copyright {
   color: aliceblue;
   font-size: 30px;
 }
- .footer-link{
- color: aliceblue;
- font-size: 30px;
- }
- .footer-img{
+
+.footer-link {
+  color: aliceblue;
+  font-size: 30px;
+}
+
+.footer-img {
   width: 250px;
-  height:70px ;
- }
+  height:70px;
+}
